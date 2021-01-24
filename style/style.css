@@ -1,0 +1,55 @@
+main{
+    width: 600px;
+    margin: auto;
+}
+
+header{
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    padding: 20px;
+    color: aliceblue;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .flex-container .box {  
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+    font-size: 16px;
+  }
+.profile-img{
+    max-width: 100px;
+}
+.social-media img{
+    width: 24px;
+}
+table{
+    border-collapse: collapse;
+    border: 0px;
+    font-size: 12px;
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    padding: 5px;
+}
+
+fieldset span{
+    float: right;
+}
+
+tr:nth-child(even){
+    background: rgb(160, 159, 159);
+}
+
+th{
+    background: #333333;
+    color: white;
+}
